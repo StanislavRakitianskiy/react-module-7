@@ -9,8 +9,7 @@ const Header = () => {
       <nav aria-label="Main Navigation">
         <ul className={css.navigation}>
           <li><Link href='/'>Home</Link></li>
-          <li><Link href='/notesSSR'>NotesSSR</Link></li>
-          <li><Link href='/notesCSR'>NotesCSR</Link></li>
+          <li><Link href='/notesSSR/filter/all'>NotesSSR</Link></li>
           <li><Link href='/profile'>Profile</Link></li>
           <li><Link href='/about'>About</Link></li>
         </ul>

@@ -1,0 +1,9 @@
+.block {
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+}
+.blockText {
+    display: flex;
+    flex-direction: column;
+}

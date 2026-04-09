@@ -8,7 +8,7 @@ type Props = {
 const NoteItem = ({ item }: Props) => {
   return (
     <li>
-      <Link href={`/notesSSR/${item.id}`}>{item.title}</Link>
+      <Link href={`/notes/${item.id}`}>{item.title}</Link>
     </li>
   );
 };
